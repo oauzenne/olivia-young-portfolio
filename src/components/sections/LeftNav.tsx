@@ -17,25 +17,39 @@ export default function LeftNav() {
           {navItems.map((item) => (
             <li key={item.id} className="w-[50%]">
               {item.id === "hero" && (
-                <Code2 className="w-full h-full p-3 text-white bg-gradient-to-br from-[#4B0082] to-[#2E003E] hover:text-[#C8A2C8] rounded-lg cursor-pointer" />
+                <a href="#hero">
+                  <Code2 className="w-full h-full p-3 text-white bg-gradient-to-br from-[#4B0082] to-[#2E003E] hover:text-[#C8A2C8] rounded-lg cursor-pointer" />
+                </a>
               )}
               {item.id === "about-me" && (
-                <User className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#about-me">
+                  <User className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
               {item.id === "skill-set" && (
-                <Wrench className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#skill-set">
+                  <Wrench className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
               {item.id === "work-history" && (
-                <BriefcaseBusiness className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#work-history">
+                  <BriefcaseBusiness className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
               {item.id === "unique-value" && (
-                <Brush className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#unique-value">
+                  <Brush className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
               {item.id === "education" && (
-                <School className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#education">
+                  <School className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
               {item.id === "contact" && (
-                <Phone className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                <a href="#contact">
+                  <Phone className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                </a>
               )}
             </li>
           ))}
