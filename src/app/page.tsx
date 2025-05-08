@@ -14,7 +14,7 @@ export default function Home() {
         <LeftNav />
       </aside>
 
-      <main className="ml-15 md:ml-30 w-full">
+      <main className="ml-15 md:ml-30 w-full pl-10">
         <Hero />
         <AboutMe />
         <SkillSet />

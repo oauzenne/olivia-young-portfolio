@@ -18,12 +18,14 @@ export default function LeftNav() {
             <li key={item.id} className="w-[50%]">
               {item.id === "hero" && (
                 <a href="#hero">
-                  <Code2 className="w-full h-full p-3 text-white bg-gradient-to-br from-[#4B0082] to-[#2E003E] hover:text-[#C8A2C8] rounded-lg cursor-pointer" />
+                  <Code2 className="w-full h-full p-3 text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:text-[#C8A2C8] rounded-lg cursor-pointer" />
                 </a>
               )}
               {item.id === "about-me" && (
                 <a href="#about-me">
-                  <User className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
+                  <User
+                    className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out"
+                  />
                 </a>
               )}
               {item.id === "skill-set" && (
