@@ -21,31 +21,31 @@ export default function AboutMe() {
             </p>
           </div>
           <div className="w-full md:w-[50%] mt-5 md:mt-0 rounded-lg md:ml-10 bg-[#1E1E1E] shadow-lg flex flex-col">
-            <div className="flex flex-row w-[100%] px-10 pt-10 items-center ">
-              <div className="w-[30%] text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center mr-2 rounded-lg p-2">
+            <div className="flex flex-col md:flex-row w-[100%] px-5 md:px-10 pt-10 items-center ">
+              <div className="w-fit text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center md:mr-2 rounded-lg p-2">
                 8+
               </div>
-              <div className="w-[70%] ml-5 text-2xl font-bold">
+              <div className="w-fit md:ml-5 text-lg md:text-2xl md:pt-0 pt-2 font-bold text-center md:text-left">
                 Years of Experience
               </div>
             </div>
 
             <div
-              className="flex flex-row w-[100%] px-10 pt-5 
+              className="flex flex-col md:flex-row w-[100%] px-5 md:px-10 pt-5 
             items-center">
-              <div className="w-[30%] text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center mr-2 rounded-lg p-2">
+              <div className="w-fit text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center md:mr-2 rounded-lg p-2">
                 35+
               </div>
-              <div className="w-[70%] ml-5 text-2xl font-bold">
+              <div className="w-fit md:ml-5 text-lg md:text-2xl md:pt-0 pt-2 font-bold text-center md:text-left">
                 Shipped Projects
               </div>
             </div>
 
-            <div className="flex flex-row w-[100%] px-10 pt-5 pb-10 items-center">
-              <div className="w-[30%] text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center mr-2 rounded-lg p-2">
+            <div className="flex flex-col md:flex-row w-[100%] px-5 md:px-10 pt-5 pb-10 items-center">
+              <div className="w-fit text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-center md:mr-2 rounded-lg p-2">
                 4000+
               </div>
-              <div className="w-[70%] ml-5 text-2xl font-bold">
+              <div className="w-fit md:ml-5 text-lg md:text-2xl md:pt-0 pt-2 font-bold text-center md:text-left">
                 YouTube Subs on Dev Channel
               </div>
             </div>
