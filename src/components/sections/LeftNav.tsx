@@ -12,13 +12,13 @@ import { navItems } from "../../app/data/index";
 export default function LeftNav() {
   return (
     <section id="left-nav">
-      <nav className="fixed top-0 left-0 h-full hidden md:block z-20 w-15 md:w-30">
+      <nav className="fixed top-0 left-0 h-full md:block z-20 w-15 md:w-30">
         <ul className="flex flex-col items-center gap-6 pt-10">
           {navItems.map((item) => (
             <li key={item.id} className="w-[50%]">
               {item.id === "hero" && (
                 <a href="#hero">
-                  <Code2 className="w-full h-full p-3 text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:text-[#C8A2C8] rounded-lg cursor-pointer" />
+                  <Code2 className="w-full h-full p-1 md:p-3 text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:text-[#1E1E1E] rounded-lg cursor-pointer" />
                 </a>
               )}
               {item.id === "about-me" && (
