@@ -58,5 +58,3 @@ export default function LeftNav() {
     </section>
   );
 }
-
-// test
