@@ -23,9 +23,7 @@ export default function LeftNav() {
               )}
               {item.id === "about-me" && (
                 <a href="#about-me">
-                  <User
-                    className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out"
-                  />
+                  <User className="w-8 h-8 text-white cursor-pointer w-[100%] hover:drop-shadow-[0_0_6px_white] transition-all duration-200 ease-in-out" />
                 </a>
               )}
               {item.id === "skill-set" && (
@@ -60,3 +58,5 @@ export default function LeftNav() {
     </section>
   );
 }
+
+// test
