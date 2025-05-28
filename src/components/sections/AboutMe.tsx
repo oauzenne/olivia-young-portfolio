@@ -1,7 +1,6 @@
 export default function AboutMe() {
   return (
     <section id="about-me" className="bg-[#F9FAFB] p-10">
-      <div>
         <h1 className="text-[#1E1E1E] text-5xl font-bold mb-5">About Me</h1>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-[50%]">
@@ -51,7 +50,6 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }
