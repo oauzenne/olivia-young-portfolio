@@ -6,11 +6,15 @@ export default function Hero() {
       id="hero"
       className="min-h-screen w-full flex flex-col md:flex-row bg-slate-700 relative overflow-hidden justify-center md:justify-start">
       <div className="flex-1 flex flex-col justify-center pt-10 md:pt-0 md:pl-10 z-10 items-center md:items-start">
-        <h3 className="text-2xl sm:text-4xl font-bold pb-4 text-gray-200">Hello World,</h3>
+        <h3 className="text-2xl sm:text-4xl font-bold pb-4 text-gray-200">
+          Hello World,
+        </h3>
         <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
-          I'm Olivia
+          I&apos;m Olivia
         </h1>
-        <h2 className="text-base md:text-3xl text-gray-50">Lead Frontend Developer</h2>
+        <h2 className="text-base md:text-3xl text-gray-50">
+          Lead Frontend Developer
+        </h2>
         <p className="text-gray-400 text-xs mt-2 mb-2 font-light">
           Bridging design, code, and strategy
         </p>
