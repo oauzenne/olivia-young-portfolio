@@ -20,7 +20,7 @@ export default function Hero() {
         </p>
         <a href="mailto:oauzenne@gmail.com">
           <button className="cursor-pointer mt-6 px-12 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white text-m font-semibold rounded-full shadow-md hover:from-purple-600 hover:to-blue-500 hover:shadow-lg transition-all duration-300">
-            Let's Connect
+            Let&apos;s Connect
           </button>
         </a>
       </div>
