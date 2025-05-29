@@ -3,6 +3,7 @@ import AboutMe from '@/components/sections/AboutMe'
 import Education from '@/components/sections/Education'
 import SkillSet from '@/components/sections/SkillSet'
 import WorkHistory from '@/components/sections/WorkHistory'
+import Shop from "@/components/sections/Shop";
 import UniqueValue from '@/components/sections/UniqueValue'
 import Contact from '@/components/sections/Contact'
 import LeftNav from '@/components/sections/LeftNav'
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutMe />
         <SkillSet />
         <WorkHistory />
+        <Shop />
         <UniqueValue />
         <Education />
         <Contact />

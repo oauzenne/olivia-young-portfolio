@@ -8,6 +8,7 @@ import {
   Brush,
   School,
   Phone,
+  ShoppingBag,
 } from "lucide-react";
 import { navItems } from "../../app/data/index";
 
@@ -17,16 +18,18 @@ export default function LeftNav() {
   useEffect(() => {
     const observerOptions = {
       root: null,
-      rootMargin: "-20% 0px -70% 0px",
+      rootMargin: "-30% 0px -30% 0px",
       threshold: 0,
     };
 
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
+      entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
+        .forEach((entry) => {
           setActiveSection(entry.target.id);
-        }
-      });
+        });
+    
     };
 
     const observer = new IntersectionObserver(
@@ -94,6 +97,11 @@ export default function LeftNav() {
                   <BriefcaseBusiness
                     className={getIconClasses("work-history")}
                   />
+                </a>
+              )}
+              {item.id === "shop" && (
+                <a href="#shop">
+                  <ShoppingBag className={getIconClasses("shop")} />
                 </a>
               )}
               {item.id === "unique-value" && (
