@@ -26,7 +26,9 @@ const cards = [
 export default function UniqueValue() {
   return (
     <section id="unique-value" className="p-10 bg-white">
-      <h1 className="text-black text-5xl font-bold mb-10">My Approach</h1>
+      <h1 className="text-black text-4xl md:text-5xl font-bold mb-10">
+        My Approach
+      </h1>
       <div className="mx-auto flex flex-col md:flex-row justify-center items-stretch gap-8">
         {cards.map((card, idx) => (
           <div

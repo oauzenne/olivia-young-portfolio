@@ -40,7 +40,7 @@ export default function Education() {
   return (
     <section id="education" className="bg-slate-800 p-10">
       <div className="mb-10">
-        <h1 className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text text-5xl font-bold mb-5">
+        <h1 className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text text-4xl md:text-5xlfont-bold mb-5">
           Education
         </h1>
         <p className="text-gray-400 text-lg max-w-xl">

@@ -43,8 +43,10 @@ export default function WorkHistory() {
   ];
 
   return (
-    <section id="work-history" className="p-10 bg-slate-gray-600">
-      <h1 className="text-white text-5xl font-bold mb-10">Experience</h1>
+    <section id="work-history" className="p-10 bg-black">
+      <h1 className="text-white text-4xl md:text-5xl font-bold mb-10">
+        Experience
+      </h1>
       {roles.map((role, i) => (
         <div key={i} className="relative pl-8 mb-12">
           <span className="absolute -left-2 top-1 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full z-10"></span>

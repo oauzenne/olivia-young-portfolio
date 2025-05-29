@@ -1,7 +1,9 @@
 export default function SkillSet() {
   return (
     <section id="skill-set" className="p-10 bg-gray-100">
-      <h1 className="text-[#1E1E1E] text-5xl font-bold mb-10">Skill Set</h1>
+      <h1 className="text-[#1E1E1E] text-4xl md:text-5xl font-bold mb-10">
+        Skill Set
+      </h1>
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex-1">
           <h3 className="text-2xl font-semibold mb-6 text-[#1E1E1E]">
