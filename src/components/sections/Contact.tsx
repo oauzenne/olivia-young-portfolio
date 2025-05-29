@@ -97,11 +97,11 @@ export default function Contact() {
           </div>
 
           <div>
-            <div>
+            <div className="text-center md:text-start">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                 Follow Me
               </h3>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center md:justify-start">
                 {socialLinks.map((social, index) => {
                   const IconComponent = social.icon;
                   return (
