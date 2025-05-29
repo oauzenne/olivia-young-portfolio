@@ -51,7 +51,7 @@ export default function WorkHistory() {
         <div key={i} className="relative pl-8 mb-12">
           <span className="absolute -left-2 top-1 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full z-10"></span>
           <div className="absolute left-0 top-5 w-px h-full bg-gray-800"></div>
-          <h3 className="text-xl font-semibold">{role.title}</h3>
+          <h3 className="text-xl text-white font-semibold">{role.title}</h3>
           <p className="text-blue-500 font-medium">{role.company}</p>
           <p className="text-sm text-gray-400 mb-1">{role.date}</p>
           <p className="text-gray-300">{role.description}</p>
