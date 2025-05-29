@@ -98,7 +98,7 @@ export default function Contact() {
 
           <div>
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                 Follow Me
               </h3>
               <div className="flex space-x-4">

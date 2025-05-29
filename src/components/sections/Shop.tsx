@@ -12,7 +12,7 @@ export default function Shop() {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-between gap-8">
         {[
           {
             title: "Developer Coaching",
