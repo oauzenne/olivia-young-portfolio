@@ -13,13 +13,13 @@ const cards = [
     icon: <Target className="h-8 w-8 text-white" />,
     title: "User-Centered Design",
     description:
-      "Every project I build starts with the user. With a blend of frontend expertise and project management know-how, I make sure we deliver not just what stakeholders ask for — but what users genuinely need.",
+      "Every project I build starts with the user. With a blend of frontend expertise and project management know - how, I make sure we deliver not just what stakeholders ask for - but what users genuinely need.",
   },
   {
     icon: <Search className="h-8 w-8 text-white" />,
     title: "Continuous Optimization",
     description:
-      "“Good enough” isn’t in my vocabulary. I’m all about testing, learning, and fine-tuning until the experience feels exceptional — for users and performance alike.",
+      "“Good enough” isn’t in my vocabulary. I’m all about testing, learning, and - tuning until the experience feels exceptional - for users and performance alike.",
   },
 ];
 
